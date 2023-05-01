@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Hussain</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="image_src" href="https://imgur.com/a/Ei3D4m9" /
+    <meta property="og:image" content="https://imgur.com/a/Ei3D4m9" />
+    <script
+      src="https://kit.fontawesome.com/0be9d41a52.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="b_icon.svg">
+</head>
+<body>
+    <div id="content">
+        <h1 id="name">Ali Hussain</h1>
+        <h1>Software Engineer and Researcher</h1>
+        <div id="descript">
+            <p>I'm a fullstack developer and cloud engineer that's passionate about</p>
+            <p> integrating modern technologies into highly regulated environments.</p>
+        </div>
+        <br><br>
+        <div id="links">
+            <a href="https://drive.google.com/file/d/13A2E-9f8TgF6RMdKd6oA2R8QbVdxtXGV/view?usp=sharing"
+            target="_blank"
+            class="fas fa-file-pdf"></a>
+            <a href="https://www.linkedin.com/in/ali-hussain-6737005b/"
+            target="_blank"
+            class="fa fa-linkedin"></a>
+            <a href="https://github.com/ali25311"
+            target="_blank"
+            class="fab fa-github"></a>
+        </div>
+    </div>
+    <script>
+        const icons = document.querySelectorAll("#links a");
+        icons.forEach(icon => {
+            icon.addEventListener("mouseover", () => {
+                icon.classList.add("fa-spin");
+            });
+            icon.addEventListener("mouseout", () => {
+                icon.classList.remove("fa-spin");
+            });
+        });
+    </script>
+</body>
+</html>
