@@ -6,7 +6,7 @@
     color: white;
     box-sizing: border-box;
     width: 100%;
-    background: url("background.jpg");
+    background: url("./assets/background.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     padding: 0;
@@ -46,13 +46,35 @@ p {
     font-size: 2.4rem;
 }
 
+#projects {
+  font-size: 0.2 rem;
+}
+
+#projects li a:hover {
+    color: gray;
+}
+
 li, a {
     text-decoration: none; 
     color: white;
+    line-height: 1.5em;
 }
 
 .fa-spin {
     animation: spin 0.5s;
+}
+
+footer {
+    width: 100%;
+}
+
+p.copyright {
+    position: fixed;
+    color: #fff;
+    font-size: 0.7em;
+    text-align: left;
+    bottom: 1em;
+    letter-spacing: 0.2rem; 
 }
 
 @keyframes spin {

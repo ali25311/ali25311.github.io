@@ -12,7 +12,7 @@
       src="https://kit.fontawesome.com/0be9d41a52.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="shortcut icon" href="b_icon.svg">
+    <link rel="shortcut icon" href="./assets/b_icon.svg">
 </head>
 <body>
     <div id="content">
@@ -21,7 +21,10 @@
         <div id="descript">
             <p>Currently focused on AWS/cloud technologies and AI tools with the goal</p>
             <p> of integrating these technologies into highly regulated environments.</p>
-            <br>
+            <ul id="projects">
+                <li><a href="https://www.sampsonakwafuo.com/home">Student member of the CEDDI Lab - Computational Epidemiology, Disaster and Data  Intelligence Lab.</a></li>
+                <li><a href="https://news.fullerton.edu/2022/09/computational-epidemiology-a-new-tool-to-fight-global-infectious-diseases/">News article on our CEDDI Lab & research work with computational epidemiology.</a></li>
+            </ul>
             <p>Based in Palo Alto, CA</p>
         </div>
         <br><br>
@@ -36,17 +39,10 @@
             target="_blank"
             class="fab fa-github"></a>
         </div>
+        <footer>
+            <p class="copyright">© Ali Hussain 2023</p>
+        </footer>
     </div>
-    <script>
-        const icons = document.querySelectorAll("#links a");
-        icons.forEach(icon => {
-            icon.addEventListener("mouseover", () => {
-                icon.classList.add("fa-spin");
-            });
-            icon.addEventListener("mouseout", () => {
-                icon.classList.remove("fa-spin");
-            });
-        });
-    </script>
+    <script src="scripts.js"></script>
 </body>
 </html>
